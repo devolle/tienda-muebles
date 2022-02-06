@@ -153,7 +153,35 @@ img {
 }
 
 .products-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  /** Or only 'gap' **/
+  /** gap: 2rem; **/
+}
 
+.product:nth-child(1) {
+  grid-column: 1 / 7;
+}
+.product:nth-child(2) {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.product:nth-child(3) {
+  grid-column: 4/ 7;
+}
+.product:nth-child(4) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.product:nth-child(5) {
+  grid-column: 3 / 5;
+}
+.product:nth-child(6) {
+  grid-column-start: 5;
+  grid-column-end: 7;
 }
 
 .product {
