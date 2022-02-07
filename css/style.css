@@ -146,7 +146,6 @@ img {
   text-align: justify;
 }
 
-
 /** Listado de productos **/
 .main-content {
   padding-top: 5rem;
@@ -238,8 +237,22 @@ img {
   padding-top: 5rem;
 }
 
+.site-footer h3 {
+  margin-bottom: 1.9rem;
+}
+
 .grid-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
+}
+
+.footer-menu a {
+  display: block;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.4rem;
 }
