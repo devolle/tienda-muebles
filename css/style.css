@@ -53,6 +53,12 @@ img {
   margin: 0 auto;
 }
 
+.title-link {
+  max-width: 35rem;
+  display: block;
+  margin: 0 auto;
+}
+
 /** Utilities **/
 .text-center {
   text-align: center;
