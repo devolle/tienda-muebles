@@ -81,10 +81,12 @@ img {
   padding: 1rem;
   transition: background-color .3s ease-out;
   text-align: center;
+  border: none;
 }
 
 .btn:hover {
   background-color: #769c02;
+  cursor: pointer;
 }
 
 /** Navigation */
@@ -336,4 +338,44 @@ img {
   height: 35rem;
   width: 40rem;
   object-fit: cover;
+}
+
+/** Contact form **/
+.form {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.form fieldset {
+  border: .5px solid #808080;
+  margin-bottom: 2rem;
+}
+.form legend {
+  background-color: #037bc0;
+  padding: .2rem 2rem;
+  width: 30rem;
+  color: #FFF;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.input label {
+  flex-basis: 10rem;
+}
+.input input:not([type="radio"]),
+.input textarea,
+.input select {
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  padding: .8rem;
+  resize: none;
+}
+
+.left-align {
+  display: flex;
+  justify-content: flex-end;
 }
